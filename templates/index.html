@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Invoice Processing Automation</title>
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body>
+    <h1 class="judul">Invoice Processing Automation</h1>
+    <div id="countdown">00:00:00</div>
+    <div class="inp-timer">
+      <label for="hours">Hours:</label>
+      <input type="number" id="hours" name="hours" min="0" value="0" />
+      <label for="minutes">Minutes:</label>
+      <input type="number" id="minutes" name="minutes" min="0" value="0" />
+      <label for="seconds">Seconds:</label>
+      <input type="number" id="seconds" name="seconds" min="0" value="0" />
+    </div>
+    <div class="button-timer">
+      <button id="pausebtn" onclick="pauseTimer()">Pause/Resume</button>
+      <button id="startbtn" onclick="startTimer()">Start</button>
+      <button id="stopbtn" onclick="stopTimer()">Stop</button>
+      <button id="resetbtn" onclick="resetTimer()">Reset</button>
+    </div>
+    <script src="static/js/script.js"></script>
+  </body>
+</html>

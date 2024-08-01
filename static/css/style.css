@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  .judul {
+    text-align: center;
+  }
+  #countdown {
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  input {
+    width: 50px;
+  }
+  .button-timer {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .inp-timer {
+    justify-content: center;
+    text-align: center;
+  }
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: aliceblue;
+    border-radius: 3px;
+  }
+  button#startbtn {
+    background-color: green;
+  }
+  button#stopbtn {
+    background-color: darkred;
+  }
+  button#resetbtn {
+    background-color: skyblue;
+  }
+  button#pausebtn {
+    background-color: lightyellow;
+    color: orangered;
+  }
